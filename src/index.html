@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/android-chrome-192x192.png"
+    />
+    <title>Joseph Breidinger | Developer</title>
+    <meta
+      name="keywords"
+      content="Joseph Breidinger, web developer, JavaScript, HTML, CSS, React, Node.js, Express, PostgreSQL, cybersecurity"
+    />
+    <meta
+      name="description"
+      content="“Software engineer with hands-on experience in React.js, Node.js, and PostgreSQL. Passionate about building efficient, user-focused applications and continuously learning emerging technologies like Python, Linux, cybersecurity, and AI automation.”"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+    <!-- **** Bio Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-name">Joseph Breidinger</span>
+          <br />
+          What can I do for you?
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Get to know me</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Bio Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a software engineer with hands-on experience in React.js,
+                Node.js, and PostgreSQL. I am passionate about helping people,
+                whether that's on the web or in my community. I am constantly
+                curious, continuously learning, and a proponent of technologies
+                like Python, Linux, cybersecurity, and AI automation.
+              </p>
+              <p class="about-wrapper__info-text">
+                While I enjoy exploring new technologies, contributing to
+                open-source projects, and improving my skills, I like to get
+                active and spend time with my friends and family, both human and
+                otherwise! I'm also committed to contributing to the world in a
+                positive way. Working collaboratively with like-minded people
+                and being exposed to new ideas and perspectives is something I
+                highly value. Nature, technology, and people inspire me every
+                day. I hope I can put that to work on your team soon!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  See what I can offer
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">FaceTrace</h3>
+                <div>
+                  <p class="mb-4">
+                    FaceTrace is a web app I built to practice full-stack
+                    fundamentals. It lets users input image URLs and
+                    automatically detects and traces the faces within them.
+                    Built with React.js, Node.js, and PostgreSQL, and supported
+                    by libraries like bcrypt, cors, knex, and tachyons, this
+                    project was both a fun challenge and a great learning
+                    experience. Try it out yourself — see how many faces you can
+                    trace!
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://6939ee623c07a83f710f41da--incandescent-hotteok-d28d23.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/JoeBreidinger/face-trace"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://6939ee623c07a83f710f41da--incandescent-hotteok-d28d23.netlify.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/face-trace-thumbnail.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  GAiNZ AI Fitness Planner
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This is a lightweight AI workout assistant I helped build as
+                    my final Fullstack Academy group capstone project. Creating
+                    this app challenged me to integrate front-end design with
+                    back-end logic, experiment with APIs, and strengthen my
+                    understanding of how different technologies work together. I
+                    focused on writing clean, efficient code, improving my
+                    problem-solving approach, and exploring how AI can be
+                    applied in practical projects. It was all about pushing
+                    myself to learn, adapt, and grow as a developer while
+                    turning an idea into a working product.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://gainzplanner.ai/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/JoeBreidinger/gainz-planner-fe"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://gainzplanner.ai/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/gainz-thumbnail.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Book Buddy</h3>
+                <div>
+                  <p class="mb-4">
+                    This was a project to showcase my ability to use React. It
+                    is a functional client I built for the Book Buddy API. The
+                    app connects to a catalog of books where logged-in users can
+                    reserve or return titles. This project was a great exercise
+                    in React.js and front-end routing, giving me hands-on
+                    practice with building user flows and managing state across
+                    components.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://fsa-book-buddy.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/JoeBreidinger/book-buddy?tab=readme-ov-file"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://fsa-book-buddy.netlify.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/book-buddy-thumbnail.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Certifications Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Certifications</h2>
+          <br />
+
+          <!-- Notice: each .row is a certification -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  U of M College of Engineering
+                </h3>
+                <h3 class="project-wrapper__text-title">
+                  Software Engineering Immersive Program
+                </h3>
+                <h3 class="dark-blue-text">Powered by Fullstack Academy</h3>
+                <br />
+                <div>
+                  <p class="mb-4">
+                    I completed the University of Michigan College of
+                    Engineering Fullstack Immersive Program, an intensive
+                    experience that strengthened my skills across the entire
+                    tech stack. From front-end design to back-end architecture,
+                    the program gave me a solid foundation in modern web
+                    development and the confidence to tackle complex projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="./assets/UofM-FSA-Cert.pdf"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/bootcamp-cert-thumbnail.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Certification -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  CompTIA Security+ Certification
+                </h3>
+                <h3 class="dark-blue-text">Coming soon</h3>
+                <br />
+                <div>
+                  <p class="mb-4">
+                    I’m excited to share that I’m currently working toward my
+                    CompTIA Security+ certification, with the goal of completing
+                    it before February 2026. This journey is about more than
+                    earning a credential — it’s about expanding my
+                    understanding, sharpening my skills, and committing to
+                    continuous improvement. I’m looking forward to applying what
+                    I learn to help create secure, reliable systems that protect
+                    what matters most.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://www.comptia.org/en-us/certifications/security/#career-path"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/compTIA-thumbnail.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Certifications Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">joseph.breidinger@gmail.com</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            id="copy-email-link"
+            href="mailto:joseph.breidinger@email.com"
+          >
+            Let's get in touch!
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/joseph-breidinger"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/JoeBreidinger"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2025 - Site developed by
+          <a
+            rel="noreferrer"
+            href="https://github.com/JoeBreidinger"
+            target="_blank"
+            >Joseph Breidinger</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
